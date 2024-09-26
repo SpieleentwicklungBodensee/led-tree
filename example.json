@@ -1,0 +1,8 @@
+{
+  "id": "c3d3344a-c0ef-4ef5-bb9e-8a8b58b623c3",
+  "frameTiming": 16,
+  "frames": [
+    "bmp data goes here, this is the first frame as a string",
+    "bmp data of second frame"
+  ]
+}
