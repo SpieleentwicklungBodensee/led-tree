@@ -22,7 +22,16 @@
       bordered
     >
       <q-list>
-        TODO
+        <q-item to="/">
+          <q-item-section>
+            <q-item-label> Home </q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item to="/editor">
+          <q-item-section>
+            <q-item-label> Editor </q-item-label>
+          </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 
