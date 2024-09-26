@@ -1,7 +1,7 @@
 <template>
   <q-page class="row items-center justify-evenly">
     Work in progress <br>
-    Create a xmas tree animation [ADD ANIMATION] [EDIT ANIMATION]
+    [EDITOR]
   </q-page>
 </template>
 
@@ -9,7 +9,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'EditorPage',
   components: { },
   setup() {
 
