@@ -4,8 +4,8 @@ sudo docker run \
     --rm \
     -it \
     -e NODE_ENV='development'\
-    -v "$PWD/../web_editor":/usr/web_editor \
-    -v "$PWD/../web_editor/.npm:/usr/web_editor/.npm" \
+    -v "$PWD/../web_editor":/usr/web_editor:z \
+    -v "$PWD/../web_editor/.npm:/usr/web_editor/.npm:z" \
     -w /usr/web_editor \
     node \
       sh -c \
