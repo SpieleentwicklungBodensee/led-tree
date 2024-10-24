@@ -1,7 +1,8 @@
 #!/bin/sh
 
-sudo docker run \
+docker run \
     --rm \
+    --user $USER \
     -it \
     -e NODE_ENV='development'\
     -v "$PWD/../web_editor":/usr/web_editor:z \
